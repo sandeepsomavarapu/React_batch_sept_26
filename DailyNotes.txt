@@ -1,0 +1,78 @@
+Javascript:
+==========
+
+website
+		webpages	
+		<html>
+		<head>
+				<style>
+				</style>
+				<script src ="">
+				</script>
+		</head>
+		<body>
+				<script>
+					var,let,const
+				
+				</script>
+		</body
+		</html>
+
+
+variables        var  a=123  implicit typing /dynamic typed PL
+datatypes
+functions		def   ,function 
+events
+
+...
+
+frameworks,libraries
+
+CSS-->BS
+react-->facebook-->meta
+
+hyd-->mumbai
+
+	car--->library-->react-router,context api,redux,axio
+	
+	flight   -->framework--->
+
+node js           node --version
+							npm --version
+							
+							npm install  packagename@version -g
+							
+							npm i @angular/cli
+							npm i typescript
+							npm i  create-react-app
+		ES		---JS			
+ES6 /ES2015
+			
+1.var,let,const			
+							
+2.arrow functions-->more concise -->anonymous functions
+
+						function square(a){
+									return a*a
+						}
+						a->a*a
+						function add(a,b){
+								let result=a+b
+								return result;
+						}
+						
+						add(10)
+						(a,b)=>a+b
+						
+	react-->html+js+css
+							Destructuring
+							destructuring
+						a=123
+						a=234
+						array-->
+						
+							
+
+
+
+
