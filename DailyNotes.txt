@@ -64,15 +64,103 @@ ES6 /ES2015
 						add(10)
 						(a,b)=>a+b
 						
-	react-->html+js+css
+	react-->html+js+css+test.js
 							Destructuring
 							destructuring
 						a=123
 						a=234
 						array-->
-						
-							
+React:
+========						19.x
+							4200
+							npm i -g create-react-app
+							create-react-app projectname   3000
 
+npm start
+    Starts the development server.
 
+  npm run build
+    Bundles the app into static files for production.
 
+  npm test
+    Starts the test runner.
 
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd react_demo
+  npm start
+
+Javascript-->React-->fb(Meta)-->2013-->19.X
+SPA
+1.Component Based Architecture 
+					components-->class,function      App component 
+2.JSX
+				const element=React.createElement("h1", "   " ," welcome to react ")
+				const orgname="demo"
+				function app(){
+						return <h1>welcome to react</h1>
+				}
+3.Virtual DOM				
+				VDOM
+				count=0
+				....
+				<h1>  {count} </h1>           0,1,2,3,4,5
+				<button>increase count</button>
+				...
+				..
+				..
+4.props	parent-->child (imuttable)
+
+5.state				(muttable)
+
+6.one way data flow 
+16.8 -->hooks-->define the state in functional component
+
+ 
+components--																						import React from 'react'
+					class components--   statefull component      class Test extends  React.Component
+					functional component-->stateless component   javascript function
+					import React from 'react'
+					class HelloComponent  extends React.Component{
+							render()
+							{
+							return()
+							}
+					}
+					props:the data which is from  parent (imuttable)
+					state	:the data of a component  can be defined inside the component and can be modified(muttable)
+					
+					class component 
+							st	udent component 
+									state	
+											access 
+Life cycle methods:
+===============											
+								DOM
+			Mounting phase-->when the component is inserting into the DOM
+			updating phase --->re-rendering due to the changes in props or state 
+			unmounting phase --->when the component is removing from the DOM
+					error handling phase -->during execution 
+			
+				constructor():intialize the state   the and the bind 	class methods to this
+					render():JSX-->output
+					componentDidMount():run once immediately after the cmponent is added to the DOM(API Calls)
+					componentDidUpdate():runs immediately after and update occurs
+					
+					componentWillUnmount:runs immediately before component is unmounting
+					
+			Less Common 
+							getDerivedStateFromProps:execute before render used when state needs to depend on changes in props
+							shouldComponentUpdate -->boolean ,if true  component will rerender if false will not rerender
+					getsnapshotBeforeUpdate-->capture the data from the DOM 
+					componentDidCatch
+					
+					
+					
+					
+					
+					
