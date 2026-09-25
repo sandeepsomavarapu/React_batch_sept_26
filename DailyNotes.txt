@@ -117,9 +117,29 @@ SPA
 
 5.state				(muttable)
 
-6.one way data flow 
+6.one way data flow     { }binding expressions
 16.8 -->hooks-->define the state in functional component
 
+ 
+			es7 snippet extension
+						RCC--react class component
+						RFC-->react functional component
+						RAFC-->react arrow functional component
+						rconstr-->react constructor 
+						
+						constructor(){
+							
+							this.state({
+							
+							
+							})
+							bind 
+						}
+						function(){
+							this.setState()
+						}
+						
+						
  
 components--																						import React from 'react'
 					class components--   statefull component      class Test extends  React.Component
@@ -160,7 +180,20 @@ Life cycle methods:
 					componentDidCatch
 					
 					
+					mounting 
+					updating 
+					unmounting
 					
 					
-					
-					
+					"10"==10   true
+					"10"==="10" true
+Forms:
+=========
+			1.controlled component	   -->react    state ,onchange 
+			2.un-controlled component -->DOM    ref ,createRef()
+								React.createRef()-->DOM nodes
+								
+								username
+								email
+								password
+								
