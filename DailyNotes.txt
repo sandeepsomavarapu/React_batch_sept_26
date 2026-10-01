@@ -196,4 +196,121 @@ Forms:
 								username
 								email
 								password
-								
+		class component    -->class Test exteds React.Component{   render(){ return "jsx"}}
+										this.state
+										setState()
+										
+										event handling -->bind
+										forms-->controlled form  VDOM  onchange() -->setState
+														uncontrolled form DOM   ref -->createRef()
+functional component 
+		npm install json-server -g
+							json-server		--watch emps.json  --port 3002
+								axios
+										get
+										post
+										put
+										delete
+			routing						
+								npm install	react-router-dom
+									
+									BrowserRouter:parent component 
+									Routes: container component which inspects mappings
+									Route:actual mapping  configuration
+									Link:navigate between pages with out full page refresh like anchor
+									
+									<a href=""></a>
+									
+									users/123
+									product/32
+									
+									path="user/:id"
+Hooks	-->which will let you add state and lifecycle methods in functional component								
+				16.8 					
+									
+									useState
+									
+			3 steps 
+				1.	createContext()
+				2.wraps parent components to broadcast state
+				3.useContext()
+
+Custom hooks
+	1.start  your function with  the name starts use
+		useCount
+	2.call built -in hooks inside it 
+	3.return the values ,state,functions 
+	
+vercel,netlify,github pages 
+
+Redux:JS library 
+global state management 
+
+
+state -->container 
+	class component -->this.state inside the constructor  and we can update state by using setState
+	function-->till 16.8 we dont have option for state in side the functional component after 16.8 hooks
+	
+context api--->props drilling 
+
+Redux : application state
+predictable ,centralised state management 
+
+state?
+
+principles 
+	single soource truth-->store
+	state is read-only-->the only way to change state is  to dispatch an action(an object which desscribes what happened)
+	changes are made with pure functions  (Reducers )
+	
+core concept of  Redux:
+==================
+Store:
+	Central container  holding the application state 
+State:
+		the plain actual js object which containse actual data inside the store 
+Actions
+			plain js object with type property
+Action creators
+			functions that returns an action object
+Reducers
+				pure js functions that  takes the current  state and  an action  then return new state 
+		
+	
+react-redux:redux with react components
+
+	by default redux reducer function is sync
+	async
+redux-thunk  :it is middle ware for handling async api calls
+
+unit testing:
+peice 
+Jest-->Meta
+mocha(Chai) Sinon
+
+	JEST
+
+	math.js
+	
+			npm start
+	math.test.js
+			npm run test
+			
+			describe    (name,fn)
+			test()
+			it()
+			expect()
+Mocking:
+==========
+
+
+
+
+
+
+
+
+
+
+
+				
